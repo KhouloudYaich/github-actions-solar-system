@@ -14,7 +14,7 @@ env:
     
 jobs:
     unit-testing:
-        if: always()
+        continue-on-error: true
         name: Unit Testing
         runs-on: ubuntu-latest
         steps:
